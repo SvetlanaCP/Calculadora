@@ -42,7 +42,7 @@ cuadrado {
 #resultado {
     color: #282c34;
     text-align: right;
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
     font-size: 100px;
