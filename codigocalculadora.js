@@ -1,5 +1,5 @@
 <script >
-
+VAR RESULTADO =0;
     function sumar() {
         
     }
