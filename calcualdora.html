@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap.min.css" type="text/css"  rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css"> 
+    <title>Document</title>
+</head>
+<body>
+ 
+    <div class="centro">
+        <div id="calculadora">
+           
+            
+            <section class="container" id="botones">
+                <div id=" row cuadrado">
+                <input type="text" id="resultado" disabled>  
+                </div>
+                <div class="row">
+                    <button id="ce" type="button" class="acciones col-sm">CE</button>
+                    <button id="corregir" type="button" class="acciones col-sm" onclick="corregir">C</button>
+                    <button type="button" class="acciones col-sm">←</button>
+                    <button id="dividision" type="button" class="acciones col-sm" onclick="dividir()">÷</button>
+                </div>
+                <div class="row">
+                    <button id="7" type="button" class="numeros col-sm">7</button>
+                    <button id="8" type="button" class="numeros col-sm">8</button>
+                    <button id="9" type="button" class="numeros col-sm">9</button>
+                    <button id="multiplicar" type="button" class="acciones col-sm" onclick="multiplicar()">*</button>
+                </div>
+                <div class="row">
+                    <button id="4" type="button" class="numeros col-sm">4</button>
+                    <button id="5" type="button" class="numeros col-sm">5</button>
+                    <button id="6" type="button" class="numeros col-sm">6</button>
+                    <button id="resta" type="button" class="acciones col-sm" onclick="restar()">-</button>
+                </div>
+                <div class="row">
+                    <button id="1" type="button" class="numeros col-sm">1</button>
+                    <button id="2" type="button" class="numeros col-sm">2</button>
+                    <button id="3" type="button" class="numeros col-sm">3</button>
+                    <button id="suma" type="button" class="acciones col-sm" onclick="sumar()">+</button>
+                </div>
+                <div class="row">
+                    
+                    <button id="0" type="button" class="numeros col-sm">0</button>
+                    <button id="coma" type="button" class="acciones col-sm">,</button>
+                    <button id="igual" type="button" class="acciones col-sm" onclick="igual">=</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    
+    
+
+    <script type="text/javascript" src="codigocalculadora.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
