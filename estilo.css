@@ -12,8 +12,8 @@ body {
     background-color: #b1b1b1;
     color: #282c34;
     border-radius: 2px;
-    width: 322px;
-    height: 500px;
+    width: 334px;
+    height: 250px;
     padding: 3px;
 }
 #calculadora .btn {
@@ -24,13 +24,8 @@ body {
     outline: none;
     box-shadow: none;
 }
-#calculadora .btn:hover {
-    background-color: #BCBCBC;
-}
-#calculadora .btn:active {
-    background-color: #909090;
-}
-cuadrado {
+
+#cuadrado {
     height: 205px;
     font-size: 36px;
     font-weight: bold;
@@ -40,13 +35,15 @@ cuadrado {
 
 
 #resultado {
-    color: #282c34;
+    color: #541287;
     text-align: right;
     
     bottom: 0;
     width: 100%;
     font-size: 100px;
-    font-weight: 600;
+    font-weight: 1000;
+    font-weight: bold;
+    position: absolute;
 }
 .numeros {
     background-color: #EFEFEF;
