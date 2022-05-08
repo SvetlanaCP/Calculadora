@@ -15,38 +15,38 @@
            
             
             <section class="container" id="botones">
-                <div id=" row cuadrado">
-                <input type="text" id="resultado" disabled>  
-                </div>
+              
+                <input class="col-8 offset-2" type="text" id="Resultado">
+
                 <div class="row">
                     <button id="ce" type="button" class="acciones col-sm" disabled></button>
                     <button type="button" class="acciones col-sm" disabled></button>
-                    <button id="corregir" type="button" class="acciones col-sm" onclick="corregir">C</button>
-                    <button id="dividision" type="button" class="acciones col-sm" onclick="dividir()">÷</button>
+                    <button id="corregir" type="button" class="acciones col-sm" onclick="borrar()"onclick="corregir">C</button>
+                    <button id="dividision" type="button" class="acciones col-sm" onclick="aritmetico(4)">/</button>
                 </div>
                 <div class="row">
-                    <button id="7" type="button" class="numeros col-sm">7</button>
-                    <button id="8" type="button" class="numeros col-sm">8</button>
-                    <button id="9" type="button" class="numeros col-sm">9</button>
-                    <button id="multiplicar" type="button" class="acciones col-sm" onclick="multiplicar()">*</button>
+                    <button id="7" type="button" class="numeros col-sm" onclick="numero(7)">7</button>
+                    <button id="8" type="button" class="numeros col-sm" onclick="numero(8)">8</button>
+                    <button id="9" type="button" class="numeros col-sm" onclick="numero(9)">9</button>
+                    <button id="multiplicar" type="button" class="acciones col-sm" onclick="aritmetico(3)">*</button>
                 </div>
                 <div class="row">
-                    <button id="4" type="button" class="numeros col-sm">4</button>
-                    <button id="5" type="button" class="numeros col-sm">5</button>
-                    <button id="6" type="button" class="numeros col-sm">6</button>
-                    <button id="resta" type="button" class="acciones col-sm" onclick="restar()">-</button>
+                    <button id="4" type="button" class="numeros col-sm" onclick="numero(4)">4</button>
+                    <button id="5" type="button" class="numeros col-sm" onclick="numero(5)">5</button>
+                    <button id="6" type="button" class="numeros col-sm" onclick="numero(6)">6</button>
+                    <button id="resta" type="button" class="acciones col-sm" onclick="aritmetico(2)">-</button>
                 </div>
                 <div class="row">
-                    <button id="1" type="button" class="numeros col-sm">1</button>
-                    <button id="2" type="button" class="numeros col-sm">2</button>
-                    <button id="3" type="button" class="numeros col-sm">3</button>
-                    <button id="suma" type="button" class="acciones col-sm" onclick="sumar()">+</button>
+                    <button id="1" type="button" class="numeros col-sm" onclick="numero(1)">1</button>
+                    <button id="2" type="button" class="numeros col-sm" onclick="numero(2)">2</button>
+                    <button id="3" type="button" class="numeros col-sm" onclick="numero(3)">3</button>
+                    <button id="suma" type="button" class="acciones col-sm" onclick="aritmetico(1)">+</button>
                 </div>
                 <div class="row">
                     
-                    <button id="0" type="button" class="numeros col-sm">0</button>
-                    <button id="coma" type="button" class="acciones col-sm">,</button>
-                    <button id="igual" type="button" class="acciones col-sm" onclick="igual">=</button>
+                    <button id="0" type="button" class="numeros col-sm" onclick="numero(0)">0</button>
+                    <button id="coma" type="button" class="acciones col-sm" onclick="coma()">,</button>
+                    <button id="igual" type="button" class="acciones col-sm" onclick="igual()">=</button>
                 </div>
             </section>
         </div>
